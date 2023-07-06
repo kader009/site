@@ -13,14 +13,14 @@ const Navbars = () => {
         <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
-            <Link className='text-decoration-none' to="/home">Home</Link>
-            <Link href="#link">Corporate Culture</Link>
-            <Link href="#link">Vision</Link>
-            <Link href="#link">Specialties</Link>
-            <Link href="#link">For Employess</Link>
-            <Link href="#link">Career</Link>
-            <Link href="#link">Contact Us</Link>
+          <Nav className="me-auto ">
+            <Link className='text-decoration-none ' to="/">Home</Link>
+            <Link className='text-decoration-none ms-2' to="/corporate">Corporate Culture</Link>
+            <Link className='text-decoration-none ms-2' to="/vision">Vision</Link>
+            <Link className='text-decoration-none ms-2' to="/specialties">Specialties</Link>
+            <Link className='text-decoration-none ms-2' to="/employee">For Employess</Link>
+            <Link className='text-decoration-none ms-2' to="/career">Career</Link>
+            <Link className='text-decoration-none ms-2' to="/contact">Contact Us</Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
