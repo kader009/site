@@ -1,3 +1,173 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.white-txt {
+  margin-left: 17rem;
+  margin-top: 2rem;
+}
+.white-txt ul li a.select {
+  color: #057dba;
+  text-decoration: none;
+}
+.corporate-box {
+  /* float: left; */
+  width: 1000px;
+  padding: 0 0 22px 0;
+}
+.coporate-txt {
+  /* float: left; */
+  width: 685px;
+}
+.corporate-heading{
+    /* float: left; */
+    font-family: Calibri;
+    font-size: 29px;
+    font-weight: bold;
+    color: #6d6d6d;
+    text-transform: uppercase;
+    margin-left: 19rem;
+}
+.corporate-para{
+  margin-left: 19rem;
+  font-family: Calibri;
+    font-size: 16px;
+    font-weight: normal;
+    color: #6d6d6d;
+    line-height: 21px;
+}
+.corporate-bullet{
+  margin-left: 17rem;
+  margin-top: 1.875rem;
+}
+.corporate-bullet ul li{
+  font-family: Calibri;
+  font-size: 16px;
+  font-weight: normal;
+  color: #6d6d6d;
+}
+.corporate-bullet .inner{
+  font-family: Calibri;
+  font-size: 16px;
+  font-weight: normal;
+  color: #6d6d6d;
+  line-height: 20px;
+}
+.nav-text p{
+  font-family: Calibri;
+  font-size: 16px;
+  font-weight: normal;
+  color: #6d6d6d;
+  /* margin-left: 3rem; */
+}
+.privacy-txt{
+  margin-left: 17rem;
+  margin-top: 2rem;
+}
+.privacy-txt ul li a.select {
+  color: #057dba;
+  text-decoration: none;
+}
+.privacy-heading{
+  font-family: Calibri;
+  font-size: 29px;
+  font-weight: bold;
+  color: #6d6d6d;
+  text-transform: uppercase;
+  margin-left: 19rem;
+}
+.privacy-box {
+  width: 1300px;
+  padding: 0 0 22px 0;
+}
+.privacy-box .privacy-content{
+  margin-left: 19rem;
+}
+.privacy-content p{
+  font-family: Calibri;
+  font-size: 16px;
+  font-weight: normal;
+  color: #6D6D6D;
+  line-height: 20px;
+  text-align: justify;
+}
+.culture-txt{
+  margin-left: 17rem;
+  margin-top: 2rem;
+}
+.culture-txt ul li a.select {
+  color: #057dba;
+  text-decoration: none;
+}
+.culture-heading{
+  font-family: Calibri;
+  font-size: 29px;
+  font-weight: bold;
+  color: #6d6d6d;
+  text-transform: uppercase;
+  margin-left: 19rem;
+}
+.culture-box{
+  width: 1000px;
+  padding: 0 0 22px 0;
+  margin-left: 19rem;
+}
+.culture-text p{
+  font-family: Calibri;
+  font-size: 16px;
+  font-weight: normal;
+  color: #6d6d6d;
+  line-height: 20px;
+  text-align: justify;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media (max-width :576px) {
+  .white-txt{
+    margin-left: 10px;
+  }
+}  */
+
+
 /* #root {
   max-width: 1280px;
   margin: 0 auto;

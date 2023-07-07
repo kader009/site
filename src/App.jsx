@@ -8,6 +8,7 @@ import Specialties from './components/Specialties/Specialties'
 import Employees from './components/Employees/Employees'
 import Career from './components/Career/Career'
 import Contact from './components/Contact/Contact'
+import Privacy from './components/Privacy/Privacy'
 
 function App() {
 
@@ -43,6 +44,10 @@ function App() {
         {
           path: '/contact',
           element: <Contact/>
+        },
+        {
+          path: '/privacy',
+          element: <Privacy/>
         },
       ]
     },
