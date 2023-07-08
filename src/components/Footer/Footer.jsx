@@ -7,6 +7,10 @@ import '../../App'
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
+  const date = new Date();
+const options = { month: 'long' };
+const fullMonth = date.toLocaleString('en-US', options);
+
   return (
     <div style={{backgroundColor:'#eee'}} className='d-flex justify-content-around p-2 align-items-center'>
       <div>
@@ -22,7 +26,7 @@ const Footer = () => {
           </Nav>
       </div>
       <div className="nav-text pt-2">
-        <p>©  {currentYear} XcelTech Corporation - <Link to='/privacy' className='text-decoration-none text-secondary'>Privacy Policy</Link>  - Site Map</p>
+        <p>©  {currentYear} - {fullMonth} - XcelTech Corporation - <Link to='/privacy' className='text-decoration-none text-secondary'>Privacy Policy</Link>  - Site Map</p>
       </div>
     </div>
   )
