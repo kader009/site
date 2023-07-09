@@ -275,10 +275,91 @@
   line-height: 22px;
   text-align: justify;
 }
-
-
-
-
+.employee-box{
+  width: 1000px;
+  padding: 0 0 22px 0;
+  margin-left: 19rem;
+}
+.employee-left{
+  width: 280px;
+  height: 40rem;
+  background-color: #f3f3f3;
+  border: 1px solid #e2e2e2;
+  border-radius: 4px;
+}
+.employee-left .line{
+  height: 1px;
+  width: 193px;
+  margin: 9px 8px 13px 2px;
+  background-color: #6d6d6d;
+  margin-left: 46px;
+}
+.left-heading{
+  font-family: Calibri;
+  font-size: 24px;
+  font-weight: bold;
+  color: #6d6d6d;
+  margin: 7px 0 0 17px;
+}
+.employee-left ul li{
+  font-family: Calibri;
+  font-size: 16px;
+  font-weight: normal;
+  color: #6d6d6d;
+  line-height: 20px;
+}
+.employee-left ul li a{
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 20px;
+  color: #057DBA;
+}
+.employee-left ul li a:hover{
+  text-decoration: none;
+  color: #000;
+}
+.img-and-text h4{
+  font-family: Calibri;
+  font-size: 16px;
+  font-weight: 700;
+  color: #6d6d6d;
+  line-height: 20px;
+}
+.employee-right h2{
+  font-family: Calibri;
+  font-size: 24px;
+  font-weight: bold;
+  color: #6d6d6d;
+  text-transform: uppercase;
+  margin: 20px 0;
+}
+.img-and-text p{
+  font-family: Calibri;
+  font-size: 16px;
+  font-weight: normal;
+  color: #6d6d6d;
+  line-height: 20px;
+}
+.employee-heading{
+  font-family: Calibri;
+  font-size: 29px;
+  font-weight: bold;
+  color: #6d6d6d;
+  text-transform: uppercase;
+}
+.employee-right p{
+  font-family: Calibri;
+  font-size: 16px;
+  font-weight: normal;
+  color: #6d6d6d;
+  line-height: 22px;
+}
+.employee-right span{
+  font-family: Calibri;
+  font-size: 16px;
+  font-weight: bold;
+  color: #6d6d6d;
+}
 
 
 

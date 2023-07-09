@@ -12,10 +12,10 @@ const options = { month: 'long' };
 const fullMonth = date.toLocaleString('en-US', options);
 
   return (
-    <div style={{backgroundColor:'#eee'}} className='d-flex justify-content-around p-2 align-items-center'>
-      <div>
+    <div style={{backgroundColor:'#eee'}} className='d-flex justify-content-around p-2 align-items-center '>
+      <div className='ms-5 ps-5'>
         
-          <Nav className="me-auto ms-5 ps-4">
+          <Nav className="me-auto ms-5 ps-5">
           <Link className='text-decoration-none ms-2 text-dark' to="/">Home</Link>
             <Link className='text-decoration-none ms-2 text-dark' to="/corporate">Corporate Culture</Link>
             <Link className='text-decoration-none ms-2 text-dark' to="/vision">Vision</Link>
