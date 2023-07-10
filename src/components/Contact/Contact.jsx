@@ -40,7 +40,7 @@ const Contact = () => {
         <div className="contact-map">
           map here
           <div className="emalil-btn">
-            <Link><button>Email Us</button></Link>
+            <Link to='/contact/emailus'><button>Email Us</button></Link>
           </div>
         </div>
         </div>

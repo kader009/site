@@ -26,7 +26,7 @@ const fullMonth = date.toLocaleString('en-US', options);
           </Nav>
       </div>
       <div className="nav-text pt-2">
-        <p>©  {currentYear} - {fullMonth} - XcelTech Corporation - <Link to='/privacy' className='text-decoration-none text-secondary'>Privacy Policy</Link>  - Site Map</p>
+        <p>©  {currentYear} - {fullMonth} - XcelTech Corporation - <Link to='/privacy' className='text-decoration-none text-secondary'>Privacy Policy</Link>  - <Link to='/sitemap' className='text-secondary text-decoration-none'>Site Map</Link> </p>
       </div>
     </div>
   )

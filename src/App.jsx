@@ -9,6 +9,8 @@ import Employees from './components/Employees/Employees'
 import Career from './components/Career/Career'
 import Contact from './components/Contact/Contact'
 import Privacy from './components/Privacy/Privacy'
+import EmailUs from './components/Email/EmailUs'
+import Sitemap from './components/Sitemap/Sitemap'
 
 function App() {
 
@@ -46,8 +48,16 @@ function App() {
           element: <Contact/>
         },
         {
+          path: '/contact/emailus',
+          element: <EmailUs/>
+        },
+        {
           path: '/privacy',
           element: <Privacy/>
+        },
+        {
+          path: '/sitemap',
+          element: <Sitemap/>
         },
       ]
     },
