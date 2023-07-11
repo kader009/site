@@ -1,5 +1,9 @@
 import React from 'react'
+import { PhotoProvider, PhotoView } from 'react-photo-view';
+import 'react-photo-view/dist/react-photo-view.css';
 import './../../App'
+
+
 
 const Vision = () => {
   return (
@@ -51,7 +55,11 @@ const Vision = () => {
             </div>
           </div>
           <div className="vision-img ms-4">
+            <PhotoProvider>
+            <PhotoView src="/slide.png">
             <img src="/slide.png" alt="slide img" className='w-100 img-fluid'/>
+            </PhotoView>
+            </PhotoProvider>
           </div>
         </div>
       </div>

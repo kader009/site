@@ -1,5 +1,8 @@
 import React from 'react'
+import { PhotoProvider, PhotoView } from 'react-photo-view';
+import 'react-photo-view/dist/react-photo-view.css';
 import './../../App'
+
 
 const Specialties = () => {
   return (
@@ -92,9 +95,24 @@ const Specialties = () => {
             </p>
           </div>
           <div className="speacial-left ">
+            <PhotoProvider>
+              <PhotoView src="/Industry.png">
               <img src="/Industry.png" alt="industry pic" className=' img1' />
+              </PhotoView>
+            </PhotoProvider>
+
+            <PhotoProvider>
+              <PhotoView src="/Technology.png">
               <img src="/Technology.png" alt="Technology pic" className='img2'/>
+              </PhotoView>
+            </PhotoProvider>
+
+
+            <PhotoProvider>
+              <PhotoView src="/Staffing.png">
               <img src="/Staffing.png" alt="Staffing pic" className='img3'/>
+              </PhotoView>
+            </PhotoProvider>
           </div>
         </div>
       </div>
