@@ -30,9 +30,9 @@ const Sitemap = () => {
               <Link to='#' className='text-secondary'>- Our Philosophy</Link>
             </li>
             <li><Link className='text-secondary' to='specialties'>Specialties</Link></li>
-            <li className='site-inner-1'><Link className='text-secondary'>- Enterprise Resource Planning (ERP)</Link></li>
-            <li className='site-inner-1'><Link className='text-secondary'>- Enterprise Performance Management (EPM)</Link></li>
-            <li className='site-inner-1'><Link className='text-secondary'>- Software Quality Assurance (SQA)</Link></li>
+            <li className='site-inner-1'><Link className='text-secondary' to='/specialties/enterprise '>- Enterprise Resource Planning (ERP)</Link></li>
+            <li className='site-inner-1'><Link className='text-secondary' to='/specialties/performence'>- Enterprise Performance Management (EPM)</Link></li>
+            <li className='site-inner-1'><Link className='text-secondary' to='/specialties/assurance'>- Software Quality Assurance (SQA)</Link></li>
             <div className="inner-dot">
               <ul style={{ listStyleType: 'none' }}>
                 <li>&#8226;<Link to='# ' className='text-secondary'> Web Application Reliability Testing</Link></li>
@@ -50,7 +50,7 @@ const Sitemap = () => {
             </li>
             <li><Link to='/contact' className='text-secondary'>Contact Us</Link></li>
             <li className="site-inner-1"><Link className='text-secondary'>- Location</Link></li>
-            <li className="site-inner-1"><Link className='text-secondary'>- Email Us</Link></li>
+            <li className="site-inner-1"><Link className='text-secondary' to='/contact/emailus'>- Email Us</Link></li>
             <li className="site-inner-1"><Link className='text-secondary'>- Directions</Link></li>
             <li><Link to='/privacy' className='text-secondary'>Privacy Policy</Link></li>
             <li><Link to='/sitemap' className='text-secondary'>Sitemap</Link></li>

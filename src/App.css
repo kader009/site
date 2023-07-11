@@ -538,12 +538,52 @@
   object-fit: cover;
   object-position: center;
 }
-
-
-
-
-
-
+.enterprise-box{
+  width: 1200px;
+  padding: 0 0 22px 0;
+  margin-left: 19rem;
+}
+.enterprise-heading{
+  font-family: Calibri;
+  font-size: 29px;
+  font-weight: bold;
+  color: #6d6d6d;
+  text-transform: uppercase;
+}
+.erp-text{
+  font-family: Calibri;
+  font-size: 16px;
+  font-weight: normal;
+  color: #6D6D6D;
+  line-height: 20px;
+}
+.erp-text h4{
+  font-family: Calibri;
+  font-size: 16px;
+  font-weight: bold;
+  color: #6D6D6D;
+  line-height: 20px;
+  margin: 0 0 10px 0;
+}
+.assurance-box{
+  width: 1200px;
+  padding: 0 0 22px 0;
+  margin-left: 19rem;
+}
+.assurance-heading{
+  font-family: Calibri;
+  font-size: 29px;
+  font-weight: bold;
+  color: #6d6d6d;
+  text-transform: uppercase;
+}
+.assurance-text{
+  font-family: Calibri;
+  font-size: 16px;
+  font-weight: normal;
+  color: #6D6D6D;
+  line-height: 20px;
+}
 
 
 

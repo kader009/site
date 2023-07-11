@@ -11,6 +11,9 @@ import Contact from './components/Contact/Contact'
 import Privacy from './components/Privacy/Privacy'
 import EmailUs from './components/Email/EmailUs'
 import Sitemap from './components/Sitemap/Sitemap'
+import Enterprise from './components/Enterprise/Enterprise'
+import Performence from './components/Performence/Performence'
+import Assurance from './components/Assurance/Assurance'
 
 function App() {
 
@@ -34,6 +37,18 @@ function App() {
         {
           path: '/specialties',
           element: <Specialties/>
+        },
+        {
+          path: '/specialties/enterprise',
+          element: <Enterprise/>
+        },
+        {
+          path: '/specialties/performence',
+          element: <Performence/>
+        },
+        {
+          path: '/specialties/assurance',
+          element: <Assurance/>
         },
         {
           path: '/employee',
