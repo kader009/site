@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -6,11 +6,28 @@ import { Link } from 'react-router-dom';
 
 
 const Navbars = () => {
+  const [isNavbarFixed, setIsNavbarFixed] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const isScrolling = window.scrollY > 0;
+      setIsNavbarFixed(isScrolling);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
   return (
     <>
-      <Navbar expand="lg" bg='dark' >
+      <Navbar expand="lg" bg='warning' fixed={isNavbarFixed ? 'top' : ''} >
       <Container>
-        <Navbar.Brand className='ms-5'><img src='/logo.png'/></Navbar.Brand>
+        <Navbar.Brand 
+        className='ms-5'>
+          <Link to='/'>
+          <img src='/logo.png' className='img-fluid w-75'/>
+          </Link>
+        </Navbar.Brand>
         <Navbar.Toggle className='bg-light' aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto ms-5 ">

@@ -47,7 +47,7 @@ const Career = () => {
           </div>
           <div className="career-left ms-3">
             <div className="btn ms-0 mb-5 pb-5">
-              <Link to='/'>
+              <Link to='/career/currentopen'>
               <button type="button" id="btn" >Current Opening</button>
               </Link>
             </div>

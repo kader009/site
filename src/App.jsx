@@ -18,6 +18,7 @@ import Testing from './components/Testing/Testing'
 import Solution from './components/Solution/Solution'
 import ManageSoft from './components/ManageSoft/ManageSoft'
 import Automation from './components/Automation/Automation'
+import CurrentOpen from './components/CurrentOpen/CurrentOpen'
 
 function App() {
 
@@ -77,6 +78,10 @@ function App() {
         {
           path: '/career',
           element: <Career/>
+        },
+        {
+          path: '/career/currentopen',
+          element: <CurrentOpen/>
         },
         {
           path: '/contact',
