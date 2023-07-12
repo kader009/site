@@ -584,9 +584,89 @@
   color: #6D6D6D;
   line-height: 20px;
 }
-
-
-
+.testing-heading{
+  font-family: Calibri;
+  font-size: 29px;
+  font-weight: bold;
+  color: #6d6d6d;
+  text-transform: uppercase;
+}
+.testing-box{
+  width: 1000px;
+  padding: 0 0 22px 0;
+  margin-left: 19rem;
+}
+.testing-text{
+  font-family: Calibri;
+  font-size: 16px;
+  font-weight: normal;
+  color: #6D6D6D;
+  line-height: 20px;
+}
+.solution-heading{
+  font-family: Calibri;
+  font-size: 29px;
+  font-weight: bold;
+  color: #6d6d6d;
+  text-transform: uppercase;
+}
+.solution-box{
+  width: 1000px;
+  padding: 0 0 22px 0;
+  margin-left: 19rem;
+}
+.solution-text{
+  font-family: Calibri;
+  font-size: 16px;
+  font-weight: normal;
+  color: #6D6D6D;
+  line-height: 20px;
+}
+.manage-heading{
+  font-family: Calibri;
+  font-size: 29px;
+  font-weight: bold;
+  color: #6d6d6d;
+  text-transform: uppercase;
+}
+.automation-box{
+  width: 1000px;
+  padding: 0 0 22px 0;
+  margin-left: 19rem;
+}
+.automation-text{
+  font-family: Calibri;
+  font-size: 16px;
+  font-weight: normal;
+  color: #6D6D6D;
+  line-height: 20px;
+}
+.automation-text h2{
+  font-family: Calibri;
+  font-size: 16px;
+  font-weight: bold;
+  color: #6D6D6D;
+  line-height: 20px;
+}
+.automation-heading{
+  font-family: Calibri;
+  font-size: 29px;
+  font-weight: bold;
+  color: #6d6d6d;
+  text-transform: uppercase;
+}
+.manage-box{
+  width: 1000px;
+  padding: 0 0 22px 0;
+  margin-left: 19rem;
+}
+.manage-text{
+  font-family: Calibri;
+  font-size: 16px;
+  font-weight: normal;
+  color: #6D6D6D;
+  line-height: 20px;
+}
 
 
 

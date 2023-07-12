@@ -14,6 +14,10 @@ import Sitemap from './components/Sitemap/Sitemap'
 import Enterprise from './components/Enterprise/Enterprise'
 import Performence from './components/Performence/Performence'
 import Assurance from './components/Assurance/Assurance'
+import Testing from './components/Testing/Testing'
+import Solution from './components/Solution/Solution'
+import ManageSoft from './components/ManageSoft/ManageSoft'
+import Automation from './components/Automation/Automation'
 
 function App() {
 
@@ -49,6 +53,22 @@ function App() {
         {
           path: '/specialties/assurance',
           element: <Assurance/>
+        },
+        {
+          path: '/specialties/assurance/testing',
+          element: <Testing/>
+        },
+        {
+          path: '/specialties/assurance/solution',
+          element: <Solution/>
+        },
+        {
+          path: '/specialties/assurance/manage',
+          element: <ManageSoft/>
+        },
+        {
+          path: '/specialties/assurance/automation',
+          element: <Automation/>
         },
         {
           path: '/employee',

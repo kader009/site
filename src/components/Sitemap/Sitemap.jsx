@@ -35,10 +35,10 @@ const Sitemap = () => {
             <li className='site-inner-1'><Link className='text-secondary' to='/specialties/assurance'>- Software Quality Assurance (SQA)</Link></li>
             <div className="inner-dot">
               <ul style={{ listStyleType: 'none' }}>
-                <li>&#8226;<Link to='# ' className='text-secondary'> Web Application Reliability Testing</Link></li>
-                <li>&#8226;<Link to='# ' className='text-secondary'> Web and Client/Server Solution Load/Stress Testing</Link></li>
-                <li>&#8226;<Link to='# ' className='text-secondary'> Software Testing and Test Management</Link></li>
-                <li>&#8226;<Link to='# ' className='text-secondary'> Test Automation</Link></li>
+                <li>&#8226;<Link to='/specialties/assurance/testing ' className='text-secondary'> Web Application Reliability Testing</Link></li>
+                <li>&#8226;<Link to='/specialties/assurance/solution ' className='text-secondary'> Web and Client/Server Solution Load/Stress Testing</Link></li>
+                <li>&#8226;<Link to='/specialties/assurance/manage ' className='text-secondary'> Software Testing and Test Management</Link></li>
+                <li>&#8226;<Link to='/specialties/assurance/automation ' className='text-secondary'> Test Automation</Link></li>
               </ul>
             </div>
             <li className="site-inner-1"><Link className='text-secondary'>- Application Development & Design</Link></li>
