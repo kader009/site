@@ -2,16 +2,26 @@ import React from 'react'
 import { PhotoProvider, PhotoView } from 'react-photo-view';
 import 'react-photo-view/dist/react-photo-view.css';
 import './../../App'
+import { useLocation } from 'react-router-dom';
 
 
 const Specialties = () => {
+  const location = useLocation();
+  const pathname = location.pathname.slice(1)
+  
+
   return (
     <div>
       <div className="white-txt ">
         <ul style={{ listStyleType: 'none' }}>
           <li>
-            <a href="" className='select me-2'>Home</a>
+            <a href="" className='select me-2'>Home
+            
+            </a>
             <img src='/breadcrum.png' alt="" />
+            <div className='d-inline-block ms-2 me-2 text-capitalize text-primary'>{pathname}</div>
+            <img src='/breadcrum.png' alt="" />
+            
           </li>
         <img src="/line.png" alt="line" />
         </ul>

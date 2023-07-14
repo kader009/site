@@ -3,7 +3,7 @@ import './../../App'
 
 const Solution = () => {
   return (
-    <div>
+    <div className='mb-5'>
       <div className="white-txt ">
         <ul style={{ listStyleType: 'none' }}>
           <li>
@@ -14,7 +14,7 @@ const Solution = () => {
         </ul>
       </div>
       <div className="solution-box">
-        <div className="solution-heading mb-3">
+        <div className="solution-heading mb-4">
         WEB AND CLIENT/SERVER SOLUTION LOAD/STRESS TESTING
         </div>
         <div className="solution-text">

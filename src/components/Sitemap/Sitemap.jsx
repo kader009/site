@@ -30,7 +30,7 @@ const Sitemap = () => {
               <Link to='#' className='text-secondary'>- Our Philosophy</Link>
             </li>
             <li><Link className='text-secondary' to='specialties'>Specialties</Link></li>
-            <li className='site-inner-1'><Link className='text-secondary' to='/specialties/enterprise '>- Enterprise Resource Planning (ERP)</Link></li>
+            <li className='site-inner-1'><Link className='text-secondary' to='/specialties/enterprise ' >- Enterprise Resource Planning (ERP)</Link></li>
             <li className='site-inner-1'><Link className='text-secondary' to='/specialties/performence'>- Enterprise Performance Management (EPM)</Link></li>
             <li className='site-inner-1'><Link className='text-secondary' to='/specialties/assurance'>- Software Quality Assurance (SQA)</Link></li>
             <div className="inner-dot">

@@ -1,9 +1,10 @@
 import React from 'react'
 import './../../App'
 
+
 const Testing = () => {
   return (
-    <div>
+    <div className='mb-5'>
       <div className="white-txt ">
         <ul style={{ listStyleType: 'none' }}>
           <li>

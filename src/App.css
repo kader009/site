@@ -667,13 +667,35 @@
   color: #6D6D6D;
   line-height: 20px;
 }
-
-
-
-
-
-
-
+.currentOpen-box{
+  width: 1000px;
+  padding: 0 0 22px 0;
+  margin-left: 19rem;
+}
+.current-heading{
+  font-family: Calibri;
+  font-size: 29px;
+  font-weight: bold;
+  color: #6d6d6d;
+  text-transform: uppercase;
+}
+table td {
+  border: 1px solid #fff;
+  padding: 3px;
+}
+table, tr, td {
+  font-size: 14px;
+}
+.open-text span{
+  font-family: Calibri;
+  font-size: 16px;
+  font-weight: bold;
+  color: #6d6d6d;
+}
+.open-text{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+}
 
 
 

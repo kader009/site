@@ -2,10 +2,11 @@ import React, { useEffect, useState } from 'react'
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 
 
 const Navbars = () => {
+  const location = useLocation()
   const [isNavbarFixed, setIsNavbarFixed] = useState(false);
 
   useEffect(() => {
@@ -20,7 +21,7 @@ const Navbars = () => {
 
   return (
     <>
-      <Navbar expand="lg" bg='warning' fixed={isNavbarFixed ? 'top' : ''} >
+      <Navbar expand="lg" bg='secondary' fixed={isNavbarFixed ? 'top' : ''} >
       <Container>
         <Navbar.Brand 
         className='ms-5'>
