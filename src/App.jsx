@@ -44,31 +44,31 @@ function App() {
           element: <Specialties/>
         },
         {
-          path: '/specialties/enterprise',
+          path: '/enterprise',
           element: <Enterprise/>
         },
         {
-          path: '/specialties/performence',
+          path: '/performence',
           element: <Performence/>
         },
         {
-          path: '/specialties/assurance',
+          path: '/assurance',
           element: <Assurance/>
         },
         {
-          path: '/specialties/assurance/testing',
+          path: '/testing',
           element: <Testing/>
         },
         {
-          path: '/specialties/assurance/solution',
+          path: '/solution',
           element: <Solution/>
         },
         {
-          path: '/specialties/assurance/manage',
+          path: '/manage',
           element: <ManageSoft/>
         },
         {
-          path: '/specialties/assurance/automation',
+          path: '/automation',
           element: <Automation/>
         },
         {
@@ -80,7 +80,7 @@ function App() {
           element: <Career/>
         },
         {
-          path: '/career/currentopen',
+          path: '/currentopen',
           element: <CurrentOpen/>
         },
         {
@@ -88,7 +88,7 @@ function App() {
           element: <Contact/>
         },
         {
-          path: '/contact/emailus',
+          path: '/emailus',
           element: <EmailUs/>
         },
         {

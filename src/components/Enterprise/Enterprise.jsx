@@ -1,12 +1,13 @@
 import React from 'react'
 import './../../App'
-import { Link, useLocation } from 'react-router-dom';
+import { Link, animateScroll as scroll } from "react-scroll";
+import {  useLocation } from 'react-router-dom';
 
 
 
 const Enterprise = () => {
   const location = useLocation();
-  const pathname = location.pathname
+  const pathname = location.pathname.slice(1)
   console.log(pathname);
 
   return (
@@ -31,9 +32,9 @@ const Enterprise = () => {
         </div>
         <div className="erp-inner">
           <ul>
-            <li><Link className='text-secondary' to="#what">What is ERP?</Link></li>
-            <li><Link className='text-secondary' to="#major">5 major ERP benefits</Link></li>
-            <li><Link className='text-secondary' to="#xcel">XcelTech as your ERP partner</Link></li>
+            <li><Link className='text-secondary' to="what" >What is ERP?</Link></li>
+            <li><Link className='text-secondary' to="major" smooth={true} duration={300}>5 major ERP benefits</Link></li>
+            <li><Link className='text-secondary' to="xcel" smooth={true} duration={500}>XcelTech as your ERP partner</Link></li>
           </ul>
         </div>
         <div className="erp-text">

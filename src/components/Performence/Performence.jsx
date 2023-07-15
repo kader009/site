@@ -1,5 +1,6 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
+import { Link, animateScroll as scroll } from "react-scroll";
+// import { Link } from 'react-router-dom';
 
 const Performence = () => {
   return (
@@ -19,9 +20,9 @@ const Performence = () => {
         </div>
         <div className="erp-inner">
           <ul>
-            <li><Link className='text-secondary' to="#what">What is EPM?</Link></li>
-            <li><Link className='text-secondary' to="#major">What is EPM Architecture?</Link></li>
-            <li><Link className='text-secondary' to="#xcel">Why Xceltech for EPM?</Link></li>
+            <li><Link className='text-secondary' to="what" >What is EPM?</Link></li>
+            <li><Link className='text-secondary' to="major" smooth={true} duration={300}>What is EPM Architecture?</Link></li>
+            <li><Link className='text-secondary' to="xcel" smooth={true} duration={500}>Why Xceltech for EPM?</Link></li>
           </ul>
         </div>
         <div className="erp-text">

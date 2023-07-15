@@ -74,41 +74,42 @@ const Employees = () => {
               <ul style={{ listStyleType: 'none' }}>
                 <li>1. Xceltech Monthly TimeSheet:
                   <br />
-                  <Link to='Monthly_Time sheet. XCT.xls' download={'/Monthly_Time sheet. XCT.xls'}>Monthly_Time sheet. XCT.xls</Link></li>
+                  <a href='/Monthly_Time sheet. XCT.xls' download>Monthly_Time sheet. XCT.xls</a></li>
                   <br />
                 <li>2. Health Insurance Forms:
                   <br />
-                  <Link>BCADV5_VA.PDF</Link>
+                  <a href='/BCADV5_VA.pdf'>BCADV5_VA.PDF</a>
                   <br />
-                  <Link>BP OPT 10.pdf</Link>
+                  <a href='/BP OPT 10.pdf'>BP OPT 10.pdf</a>
                   <br />
-                  <Link>BP CDH HSA OPT 1.pdf</Link>
+                  <a href='/BP CDH HSA OPT 1.pdf'>BP CDH HSA OPT 1.pdf</a>
                   <br />
-                  <Link>Rx $0 ded $10 $25 $45 (VA) - BRC6369.pdf</Link>
+                  <a href='/Rx $0 ded $10 $25 $45 (VA) - BRC6369.pdf'>Rx $0 ded $10 $25 $45 (VA) - BRC6369.pdf</a>
                   <br />
-                  <Link>Health Study 2011.pdf</Link>
+                  <a href='/Health Study 2011.pdf
+                  '>Health Study 2011.pdf</a>
                   <br />
-                  <Link>RX 15-35-60 0 DEDUCTABLE.PDF</Link>
+                  <a href='/RX 15-35-60 0 DEDUCTABLE.pdf'>RX 15-35-60 0 DEDUCTABLE.PDF</a>
                   <br />
-                  <Link>HSA Freq Asked Questions.TIF</Link>
+                  <a href='/HSA Freq Asked Questions.tif'>HSA Freq Asked Questions.TIF</a>
                   </li>
                   <br />
                 <li>3. Dental Enrollment Form:
                   <br />
-                  <Link>HUMANA_DENTAL_ENROLMENT_
-                  TERMINATION_FORM.PDF</Link></li>
+                  <a href='/HUMANA_DENTAL_ENROLMENT_TERMINATION_FORM.pdf'>HUMANA_DENTAL_ENROLMENT_
+                  TERMINATION_FORM.PDF</a></li>
                   <br />
                 <li>4. Vision Enrollment Form:
                   <br />
-                  <Link>Xceltech Inc (enrollment-2011).pdf</Link></li>
+                  <a href='/Xceltech Inc  (enrollment-2011).pdf'>Xceltech Inc (enrollment-2011).pdf</a></li>
                   <br />
                 <li>5. Life Insurance:
                   <br />
-                  <Link>LIFE_INSURANCE_HARTFORD
-                  EnrollmentForm_ID27.pdf</Link>
+                  <a href='/_opt_www_prod-ev_evadminkit_generic_EnrollmentForm_ID27.pdf'>LIFE_INSURANCE_HARTFORD
+                  EnrollmentForm_ID27.pdf</a>
                   <br />
-                  <Link>LIFE_INSURANCE_Beneficiary
-                  DesignationForm_gr11927.pdf</Link>
+                  <a href='/LIFE_INSURANCE_BeneficiaryDesignationForm_gr11927.pdf'>LIFE_INSURANCE_Beneficiary
+                  DesignationForm_gr11927.pdf</a>
                   </li>
               </ul>
             </div>

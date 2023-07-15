@@ -1,6 +1,6 @@
 import React from 'react'
 import './../../App'
-import { Link, useLocation } from 'react-router-dom';
+import { Link,  useLocation } from 'react-router-dom';
 
 
 const Career = () => {
@@ -27,11 +27,11 @@ const Career = () => {
         <div className="career-heading mb-3">
         CAREER
         </div>
-        <Link to='#oppor' className='text-secondary'>Opportunities at Xceltech</Link>
+        <a href='#oppor' className='text-secondary'>Opportunities at Xceltech</a>
             <br />
-            <Link to='#' className='text-secondary'>A Flexible Partnership</Link>
+            <a href='#flexi' className='text-secondary'>A Flexible Partnership</a>
             <br />
-            <Link to='#' className='text-secondary'>Benefits</Link>
+            <a href='#benefit' className='text-secondary'>Benefits</a>
         <div className="career-content d-flex">
           <div className="career-right pb-5">
           <br />
@@ -45,17 +45,17 @@ const Career = () => {
           <br />
           <p className='m-0'>Please send Resumes to: Xceltech Inc. 2136 Gallows Rd., Ste F, Dunn Loring, VA 22027.</p>
           <br />
-          <span>A Flexible Partnership</span>
+          <span id='flexi'>A Flexible Partnership</span>
           <p className='m-0 '>At XcelTech, a career starts with a flexible partnership between each employee and the company. We provide opportunity, assistance and direction a€“ and you select the path that best fits your career goals. Our consultants and employees grow at their own pace, freed from bureaucracy of larger, more restrictive firms. We believe that good employees are well rounded and we empower them to develop a career that includes variety as well as the chance to emphasize specific talents and interests. We also provide the framework for success. We encourage and sponsor training, provide mentoring and conduct performance reviews. Working here means you have access to people and resources that help to make career decisions easier - based on the real-life experience of someone who's likely already been there.</p>
           <br />
-          <span>Benefits</span>
+          <span id='benefit'>Benefits</span>
           <p>Providing quality benefits are something we believe helps employees worry less about the details and focus on career advancement. As such, we offer a competitive compensation program including performance related bonuses and locally competitive benefits.</p>
           <p>A careful skills and experience review is conducted prior to an engagement to ensure a consultant will be productive as soon as they join the project. Only consultants who surpass these standards are engaged at XCELTECH client sites.</p>
           <span >XCELTECH believes in Equal Opportunity Employment.</span>
           </div>
           <div className="career-left ms-3">
             <div className=" ms-0 mb-5 pb-5">
-              <Link to='/career/currentopen'>
+              <Link to='/currentopen'>
               <button type="button" id="btn" >Current Opening</button>
               </Link>
             </div>

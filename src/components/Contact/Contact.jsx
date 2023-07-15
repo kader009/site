@@ -43,7 +43,7 @@ const Contact = () => {
           <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14687.9110170666!2d72.5668493!3d23.024589!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e84d59d09890d%3A0xfdceac8c4ce642b8!2sXcelTec%20Interactive%20Private%20Limited%20-%20A%20CMMI%20Level%205%20Company!5e0!3m2!1sbn!2sbd!4v1689352300677!5m2!1sbn!2sbd" style={{width:"600", height:"450", border:"0" ,allowfullscreen:"", loading:"lazy" ,referrerpolicy:"no-referrer-when-downgrade"}}></iframe>
           </div>
           <div className="emalil-btn">
-            <Link to='/contact/emailus'><button>Email Us</button></Link>
+            <Link to='/emailus'><button>Email Us</button></Link>
           </div>
         </div>
         </div>
