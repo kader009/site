@@ -8,7 +8,6 @@ import {  useLocation } from 'react-router-dom';
 const Enterprise = () => {
   const location = useLocation();
   const pathname = location.pathname.slice(1)
-  console.log(pathname);
 
   return (
     <div>
@@ -23,7 +22,7 @@ const Enterprise = () => {
             <img src='/breadcrum.png' alt="" />
             
           </li>
-        <img src="/line.png" alt="line" />
+        <img src="/line.png" alt="line" className='d-sm-none d-lg-block d-md-block mt-2'/>
         </ul>
       </div>
       <div className="enterprise-box">

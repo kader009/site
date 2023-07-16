@@ -24,7 +24,7 @@ const CurrentOpen = () => {
             <img src='/breadcrum.png' alt="" />
             
           </li>
-        <img src="/line.png" alt="line" />
+        <img src="/line.png" alt="line" className='d-sm-none d-lg-block d-md-block mt-2'/>
         </ul>
       </div>
       <div className="currentOpen-box">
@@ -99,15 +99,15 @@ const CurrentOpen = () => {
             Xceltech, Inc. has several permanent position for candidates w/ strong skills in:
             <br />
             <br />
-            JavaWindowNT,J2EE,XML,JSP,WinRunner,QTP,LoadRunner,Rational,Powerbuilder,Infomix,Informatica,Sybase,DB2 / SQL Server,VB, C, C++,HTML Unix <br />
+            JavaWindowNT,J2EE,XML,JSP,WinRunner,QTP,LoadRunner,Rational, <br />Powerbuilder,Infomix,Informatica,Sybase, <br />DB2 / SQL Server,VB, C, C++,HTML Unix <br />
             AdminMainframe/RPG, Internet Architecture PPLsoft,PPLTools,SQR,PPLcode
             <br />
             <br />
             oracle Positions are: 
             <br />
-            Software Engs,Programmer/Sys Analysts, QAEngs, Sales Engs, Business Analysts, Lead Analysts, Proj Mgrs/Leaders,Market Research Analysts.
+            Software Engs,Programmer/Sys Analysts, QAEngs, Sales Engs, Business Analysts, Lead Analysts, Proj Mgrs/Leaders, <br />Market Research Analysts.
             <br />
-            Featuring positions at our offices & client sites: May be required to travel/relocate to unanticipated client locations accross the US for short term or long term 
+            Featuring positions at our offices & client sites: May be required to travel/relocate to unanticipated client locations accross <br /> the US for short term or long term 
             <br />
             projects.
             <br />

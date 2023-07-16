@@ -19,14 +19,14 @@ const Employees = () => {
             <img src='/breadcrum.png' alt="" />
             
           </li>
-        <img src="/line.png" alt="line" />
+        <img src="/line.png" alt="line" className='d-sm-none d-lg-block d-md-block mt-2'/>
         </ul>
       </div>
       <div className="employee-box">
         <div className="employee-heading">
           For Employees
         </div>
-        <div className="two-side-box d-flex">
+        <div className="two-side-box d-flex flex-sm-column flex-lg-row">
           <div className="employee-right">
             <p className='m-0'>
             Xceltech's career option removes barriers and gives you the platform to break into an industry that has seen unmatched growth in the last decade. Or maybe there's a specific company you've had your eye on. Let us propel your name to the top of the hiring list. Advance your career with on-the-job experience and additional skills training and certifications. You can do it all with Xceltech.
@@ -55,11 +55,11 @@ const Employees = () => {
             </p>
             <h2>
               XCELTECH IS AN E-VERIFIED COMPANY</h2>
-              <div className="img-and-text d-flex justify-content-center">
+              <div className="img-and-text d-flex justify-content-center flex-sm-column flex-lg-row">
                 <div>
                   <img src="/verify.jpg" alt="verify img" />
                 </div>
-                <div className='ms-4'>
+                <div className='ms-4 mt-sm-3 mb-sm-2'>
                   <h4>What is the E-Verify program?</h4>
                   <p>The E-Verify program is an online system operated by the Department of Homeland Security (DHS) in partnership with the Social Security Administration (SSA). The E-Verify program enables employers to determine employment eligibility of new hires and the validity of their Social Security Numbers.</p>
                 </div>

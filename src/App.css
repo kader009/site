@@ -19,20 +19,20 @@
   width: 685px;
 }
 .corporate-heading{
-    font-family: Calibri;
-    font-size: 29px;
-    font-weight: bold;
-    color: #6d6d6d;
-    text-transform: uppercase;
-    margin-left: 19rem;
+  font-family: Calibri;
+  font-size: 29px;
+  font-weight: bold;
+  color: #6d6d6d;
+  text-transform: uppercase;
+  margin-left: 19rem;
 }
 .corporate-para{
   margin-left: 19rem;
   font-family: Calibri;
-    font-size: 16px;
-    font-weight: normal;
-    color: #6d6d6d;
-    line-height: 21px;
+  font-size: 16px;
+  font-weight: normal;
+  color: #6d6d6d;
+  line-height: 21px;
 }
 .corporate-bullet{
   margin-left: 17rem;
@@ -700,7 +700,184 @@ table, tr, td {
 
 
 
+/* responsive */
 
+
+@media (max-width: 576px) {
+  .white-txt {
+    margin-left: 3rem !important;
+    margin-top: 2rem;
+  }
+  .corporate-box {
+    width: 570px;
+  }
+  .corporate-heading{
+    margin-left: 5rem;
+    font-size: 20px;
+  }
+  .corporate-para{
+    margin-left: 5rem;
+    font-family: Calibri;
+    font-size: 16px;
+    font-weight: normal;
+    color: #6d6d6d;
+    line-height: 21px;
+  }
+  .corporate-bullet{
+    margin-left: 5rem;
+    margin-top: 1.875rem;
+  }
+  .culture-heading{
+    font-size: 20px;
+    margin-left: 5rem;
+  }
+  .culture-box{
+    width: 432px;
+    margin-left: 5rem;
+  }
+  .white-txt{
+    margin-left: 5rem;
+  }
+  .vision-text{
+    width: 360px;
+    margin-left: 5rem;
+  }
+  .vision-heading{
+    font-size: 20px;
+  }
+  .employee-box{
+    width: 448px;
+    margin-left: 7rem;
+  }
+  .employee-heading{
+    margin-left: -2rem;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .employee-right{
+    margin-left: -2rem;
+  }
+  .employee-right h2{
+    font-size: 20px;
+  }
+  .career-content-box{
+    width: 380px;
+    margin-left: 7rem;
+  }
+  .side-box{
+    margin-bottom: 15px;
+  }
+  .career-left{
+    height: 31rem;
+  }
+  .career-heading{
+    font-size: 20px;
+  }
+  .contact-box{
+    width: 416px;
+    margin-left: 5rem;
+  }
+  .bulltet-contact{
+    margin-left: -33px;
+    margin-right: 130px;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .contact-heading h1{
+    font-size: 20px;
+  }
+  .site-box{
+    width: 416px;
+    margin-left: 8rem;
+  }
+  .enterprise-box{
+    width: 400px;
+    margin-left: 5rem;
+  }
+  .enterprise-heading{
+    font-size: 20px;
+  }
+  .assurance-box{
+    width: 416px;
+    margin-left: 5rem;
+  }
+  .assurance-heading{
+    font-size: 20px;
+  }
+  .testing-box{
+    width: 432px;
+    margin-left: 5rem;
+  }
+  .testing-heading{
+    font-size: 20px;
+  }
+  .solution-box{
+    width: 496px;
+    margin-left: 5rem;
+  }
+  .solution-heading{
+    font-size: 20px;
+  }
+  .manage-box{
+    width: 496px;
+    margin-left: 5rem;
+  }
+  .manage-heading{
+    font-size: 20px;
+  }
+  .automation-box{
+    width: 496px;
+    margin-left: 5rem;
+  }
+  .automation-heading{
+    font-size: 20px;
+  }
+  .currentOpen-tab-bottom table{
+    width: 100%;
+  }
+  .current-heading{
+    font-size: 20px;
+  }
+  .currentOpen-box{
+    width: 400px;
+    margin-left: 5rem;
+  }
+  .open-text{
+    width: 100%;
+  }
+  .email-box{
+    width: 496px;
+    margin-left: 5rem;
+  }
+  .email-heading{
+    font-size: 20px;
+  }
+  .email-bullet p{
+    width: 480px;
+  }
+  .erp-img img{
+    width: 100%;
+  }
+  .speacial-left img{
+    width: 100%;
+  }
+  .speacial-box{
+    width: 448px;
+    margin-left: 5rem;
+  }
+  .speacial-heading{
+    font-size: 20px;
+  }
+  .speacial-left .img2{
+    margin-top: 10rem;
+  }
+  .speacial-left .img3{
+    margin-top: 36rem;
+  }
+  .speacial-left .img1{
+    margin-top: -25rem;
+  }
+}
 
 
 

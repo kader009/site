@@ -19,13 +19,13 @@ const Corporate = () => {
             <img src='/breadcrum.png' alt="" />
             
           </li>
-        <img src="/line.png" alt="line" />
+        <img src="/line.png" alt="line" className='d-sm-none d-lg-block d-md-block mt-2'/>
         </ul>
       </div>
       <div className="culture-heading mb-3">
       CORPORATE CULTURE
       </div>
-      <div className="culture-box d-flex justify-content-center align-items-center">
+      <div className="culture-box d-flex justify-content-center align-items-center flex-sm-column flex-lg-row">
         <div className="culture-text">
           <p>Our greatest differentiator is our commitment to delivering value-added IT staffing and managed solutions services, not just temporary help. More specifically, we understand our clients specific needs and evolving business drivers and are dedicated to providing unparalleled value to our clients.</p>
           <br />

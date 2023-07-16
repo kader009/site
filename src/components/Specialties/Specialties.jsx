@@ -23,14 +23,14 @@ const Specialties = () => {
             <img src='/breadcrum.png' alt="" />
             
           </li>
-        <img src="/line.png" alt="line" />
+        <img src="/line.png" alt="line" className='d-sm-none d-lg-block d-md-block'/>
         </ul>
       </div>
       <div className="speacial-box">
         <div className="speacial-heading mb-2">
         SPECIALTIES
         </div>
-        <div className="speacial-content d-flex align-items-center justify-content-around">
+        <div className="speacial-content d-flex  align-items-center justify-content-around">
           <div className="speacial-text">
             <span className='quality'>? Quality Assurance As A Service (QAaaS)</span>
             <br />
