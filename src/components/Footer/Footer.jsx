@@ -1,5 +1,4 @@
 import React from 'react'
-import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import { Link } from 'react-router-dom';
 import '../../App'
@@ -12,10 +11,10 @@ const options = { month: 'long' };
 const fullMonth = date.toLocaleString('en-US', options);
 
   return (
-    <div style={{backgroundColor:'#eee'}} className='d-flex justify-content-around p-2 align-items-center '>
-      <div className='ms-5 ps-5'>
+    <div style={{backgroundColor:'#eee'}} className='d-flex justify-content-around p-2   align-items-center flex-sm-column flex-lg-row '>
+      <div className='ms-5 ps-5 pt-sm-2'>
         
-          <Nav className="me-auto ms-5 ps-5">
+          <Nav className="me-auto  ms-sm-0 ps-sm-0 ms-5 ps-5">
           <Link className='text-decoration-none ms-2 text-dark' to="/">Home</Link>
             <Link className='text-decoration-none ms-2 text-dark' to="/corporate">Corporate Culture</Link>
             <Link className='text-decoration-none ms-2 text-dark' to="/vision">Vision</Link>

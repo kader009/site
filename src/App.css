@@ -702,8 +702,7 @@ table, tr, td {
 
 /* responsive */
 
-
-@media (max-width: 576px) {
+@media only screen and (max-width: 36rem) {
   .white-txt {
     margin-left: 3rem !important;
     margin-top: 2rem;
@@ -868,18 +867,8 @@ table, tr, td {
   .speacial-heading{
     font-size: 20px;
   }
-  .speacial-left .img2{
-    margin-top: 10rem;
-  }
-  .speacial-left .img3{
-    margin-top: 36rem;
-  }
-  .speacial-left .img1{
-    margin-top: -25rem;
-  }
+
 }
-
-
 
 
 
