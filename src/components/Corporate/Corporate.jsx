@@ -19,13 +19,13 @@ const Corporate = () => {
             <img src='/breadcrum.png' alt="" />
             
           </li>
-        <img src="/line.png" alt="line" className='d-sm-none d-lg-block d-md-block mt-2'/>
+        <img src="/line.png" alt="line" className='d-sm-none d-lg-block d-none d-md-block mt-2'/>
         </ul>
       </div>
       <div className="culture-heading mb-3">
       CORPORATE CULTURE
       </div>
-      <div className="culture-box d-flex justify-content-center align-items-center flex-sm-column flex-lg-row">
+      <div className="culture-box d-flex flex-column justify-content-center align-items-center flex-sm-column flex-lg-row">
         <div className="culture-text">
           <p>promotes innovation, collaboration, and continuous growth. Our culture is built upon the following core values: </p>
           <span className='fw-bold'>Excellence:</span>

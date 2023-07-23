@@ -23,14 +23,14 @@ const Vision = () => {
             <img src='/breadcrum.png' alt="" />
             
           </li>
-        <img src="/line.png" alt="line" className='d-sm-none d-lg-block d-md-block'/>
+        <img src="/line.png" alt="line" className='d-sm-none d-lg-block d-md-block mt-2 d-none'/>
         </ul>
       </div>
       <div className="vision-text">
         <div className="vision-heading mb-3">
           Our Vision
         </div>
-        <div className="vision-content d-flex justify-content-center align-items-center
+        <div className="vision-content d-flex flex-column justify-content-center align-items-center
           flex-sm-column flex-lg-row">
           <div className="vision-first">
             <p>Our vision is to be the number one choice of companies and clients seeking business and technology solutions, and to deliver, reinforce, and maintain our passionate commitment to our clients success throught: <span>"Providing Xcellence in Technology".</span></p>

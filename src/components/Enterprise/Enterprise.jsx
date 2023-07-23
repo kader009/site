@@ -2,6 +2,7 @@ import React from 'react'
 import './../../App'
 import { Link, animateScroll as scroll } from "react-scroll";
 import {  useLocation } from 'react-router-dom';
+import { Container, Row, Col } from 'react-bootstrap'
 
 
 
@@ -11,6 +12,8 @@ const Enterprise = () => {
 
   return (
     <div>
+      
+          
       <div className="white-txt ">
         <ul style={{ listStyleType: 'none' }}>
           <li>
@@ -83,6 +86,7 @@ const Enterprise = () => {
           e-mail info@xceltech.com or visit our Contact US page.
         </div>
       </div>
+      
     </div>
   )
 }

@@ -439,6 +439,7 @@
 .email-bullet p{
   font-family: Arial, Helvetica, sans-serif;
   font-size: 13px;
+  color: #6d6d6d;
 }
 .form ul li{
   font-family: Calibri;
@@ -699,13 +700,17 @@ table, tr, td {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 13px;
 }
+#basic-navbar-nav Link{
+  font-family: Roboto, sans-serif;
+}
+
 
 
 
 
 /* responsive */
 
-@media only screen and (max-width: 36rem) {
+@media only screen and (max-width: 576px) {
   .white-txt {
     margin-left: 3rem !important;
     margin-top: 2rem;
@@ -870,8 +875,128 @@ table, tr, td {
   .speacial-heading{
     font-size: 20px;
   }
+  .privacy-heading{
+    font-size: 20px;
+    margin-left: 5rem;
+  }
+  .privacy-box .privacy-content {
+    margin-left: 5rem;
+  }
+  .privacy-box{
+    width: 540px;
+  }
+  .white-txt{
+    margin-left: 3rem;
+  }
 
 }
+
+
+/*  */
+
+
+@media screen and (max-width: 575px) and (min-width: 402px) {
+  .corporate-box{
+    width: 390px;
+  }
+  .culture-box{
+    width: 321px;
+    margin-left: 3rem;
+  }
+  .culture-heading{
+    margin-left: 3rem;
+    font-size: 16px;
+  }
+  .vision-text{
+    width: 322px;
+    margin-left: 3rem;
+  }
+  .vision-heading{
+    font-size: 16px;
+  }
+  .employee-box{
+    width: 310px;
+    margin-left: 4rem;
+  }
+  .employee-heading{
+    font-size: 17px;
+  }
+  .employee-right h2{
+    font-size: 17px;
+  }
+  .employee-left{
+    margin-right: 10rem;
+  }
+  .career-content-box{
+    width: 322px;
+    margin-left: 3rem;
+  }
+  .career-heading{
+    font-size: 17px;
+  }
+  .contact-box{
+    width: 354px;
+    margin-left: 3rem;
+  }
+  .contact-heading h1{
+    font-size: 17px;
+  }
+  .contact-email-direction #bold{
+    font-size: 17px;
+  }
+  .emalil-btn{
+    margin-bottom: 25px;
+}
+  .email-bullet p{
+    width: 350px;
+  }
+  .email-box{
+    width: 385px;
+    margin-left: 1rem;
+  }
+  .form ul li input {
+    width: 238px;
+  }
+  .email-heading{
+    font-size: 17px;
+  }
+  .form ul li{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 10px;
+  }
+  .form ul li span{
+    width: 141px;
+  }
+  .form ul li textarea {
+    width: 200px;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -19,11 +19,11 @@ const Contact = () => {
             <img src='/breadcrum.png' alt="" />
             
           </li>
-        <img src="/line.png" alt="line" className=' d-sm-none d-lg-block d-md-block mt-2'/>
+        <img src="/line.png" alt="line" className=' d-sm-none d-lg-block d-md-block mt-2 d-none'/>
         </ul>
       </div>
       <div className="contact-box">
-        <div className="contact-flex d-flex align-items-center justify-content-between d-sm-flex justify-content-sm-between align-items-sm-center">
+        <div className="contact-flex d-flex flex-column flex-lg-row align-items-center justify-content-between d-sm-flex justify-content-sm-between align-items-sm-center">
 
         <div className="contact-heading">
         <h1>CONTACT US</h1>

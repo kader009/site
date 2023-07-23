@@ -20,7 +20,7 @@ const Career = () => {
             <img src='/breadcrum.png' alt="" />
             
           </li>
-        <img src="/line.png" alt="line" className='d-sm-none d-lg-block d-md-block mt-2'/>
+        <img src="/line.png" alt="line" className='d-sm-none d-lg-block d-md-block mt-2 d-none'/>
         </ul>
       </div>
       <div className="career-content-box ">
@@ -32,7 +32,7 @@ const Career = () => {
             <a href='#flexi' className='text-secondary'>A Flexible Partnership</a>
             <br />
             <a href='#benefit' className='text-secondary'>Benefits</a>
-        <div className="career-content d-flex flex-sm-column flex-lg-row">
+        <div className="career-content d-flex flex-column flex-sm-column flex-lg-row">
           <div className="career-right pb-5">
           <br />
           <br />

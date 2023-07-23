@@ -19,7 +19,7 @@ const Privacy = () => {
             <img src='/breadcrum.png' alt="" />
             
           </li>
-        <img src="/line.png" alt="line" />
+        <img src="/line.png" alt="line" className='d-sm-none d-md-none d-xs-none d-none d-lg-block d-md-block mt-2 '/>
         </ul>
       </div>
       <div className="privacy-heading mb-3">
