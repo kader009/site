@@ -899,6 +899,9 @@ table, tr, td {
   .corporate-box{
     width: 390px;
   }
+  .corporate-heading{
+    font-size: 17px;
+  }
   .culture-box{
     width: 321px;
     margin-left: 3rem;

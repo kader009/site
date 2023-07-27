@@ -28,15 +28,40 @@ const Vision = () => {
       </div>
       <div className="vision-text">
         <div className="vision-heading mb-3">
-          Our Vision
+        Vision & Mission
         </div>
         <div className="vision-content d-flex flex-column justify-content-center align-items-center
           flex-sm-column flex-lg-row">
           <div className="vision-first">
-            <p>Our vision is to be the number one choice of companies and clients seeking business and technology solutions, and to deliver, reinforce, and maintain our passionate commitment to our clients success throught: <span>"Providing Xcellence in Technology".</span></p>
+            <span className='fw-bold'>Our Vision:</span>
+            <p>We envision a future where businesses thrive with automation, AI, and RPA. Our vision is to be the top choice for technology solutions, delivering excellence and 
+            success for our clients worldwide by maintaining our passionate commitment to our 
+            client's success.</p>
+            <span className='fw-bold'>Our Mission:</span>
+            <p>Our mission is to provide cutting-edge automation solutions that are accessible, adaptable, and affordable for businesses across various 
+            industries. We aim to be at the forefront of technological advancements, continuously innovating and integrating the latest tools to optimize 
+            workflows and propel businesses toward sustained success.</p>
+            <span className='fw-bold '>Key Values:</span>
+            <p className='mt-2'>
+              
+            * Innovation <br />
+            * User-Centric Approach <br />
+            * Reliability <br />
+            * Simplicity <br />
+            * Collaboration
+            </p>
+            <span className='fw-bold'>Our Offerings:</span>
+            <p className='mt-2'>
+            * Automation Solutions <br />
+            * Process Optimization <br />
+            * Customer Support <br />
+            * Scalability <br />
+            * Data Security
+            </p>
 
             <span>Our Philosophy</span>
-            <p>Fulfilling your corporate vision requires building your business and improving your operations. Everything we do at XceTtech is focused on helping you achieve those objectives. Our goal is to help our clients:
+            <p>Our purpose is to assist you in fulfilling your corporate vision by enhancing your business and optimizing operations. Our focus is on helping 
+            you achieve your goals. We are here to support our clients:
             </p>
             <br />
             <div className="vision-bullet">
@@ -53,8 +78,6 @@ const Vision = () => {
               <li><img src="/tick.png" alt="tick" className='me-2' />Transfer knowledge
             </li>
               <li><img src="/tick.png" alt="tick" className='me-2' />Reduce recruiting costs
-            </li>
-              <li><img src="/tick.png" alt="tick" className='me-2' />Align technology with business stategies.
             </li>
               <li><img src="/tick.png" alt="tick" className='me-2' />Reduce time to market
             </li>
