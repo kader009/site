@@ -29,7 +29,7 @@ const Contact = () => {
         <h1>CONTACT US</h1>
         <div className="bulltet-contact">
           <ul style={{ listStyleType: 'none' }}>
-            <li>XcelTech Inc.</li>
+            <li>EasyWayAutomation</li>
             <li>2136 Gallows Rd, Suite F</li>
             <li>Dunn Loring , VA 22027-1036
             </li>

@@ -27,7 +27,7 @@ const Career = () => {
         <div className="career-heading mb-3">
         CAREER
         </div>
-        <a href='#oppor' className='text-secondary'>Opportunities at Xceltech</a>
+        <a href='#oppor' className='text-secondary'>Opportunities in EasyWayAutomation</a>
             <br />
             <a href='#flexi' className='text-secondary'>A Flexible Partnership</a>
             <br />
@@ -36,22 +36,58 @@ const Career = () => {
           <div className="career-right pb-5">
           <br />
           <br />
-          <span id='oppor'>Opportunities at Xceltech</span>
-          <p className='m-0'>We look for leaders in the consulting field throughout the world -- technologists, industry specialists, process experts, and business strategists - capable of turning new thoughts and ideas into successful solutions that provide value for our clients.</p>
+          <span id='oppor'>Opportunities in EasyWayAutomation</span>
+          <p className='m-0'>Are you a leader in the consulting field? EasyWay Automation is on the lookout for talented individuals 
+worldwide, including technologists, industry specialists, process experts, and business strategists. Join us in turning 
+innovative ideas into successful solutions that bring value to our clients.</p>
           <br />
-          <p className='m-0'>Xceltech Inc., has Permanent positions for candidates w/ strong skills in one or more of the following skill sets: JavaWindowNT, J2EE, XML, JSP, WinRunner, QTP, LoadRunner, Rational, Powerbuilder, Informix, Informatica, Sybase, DB2/ SQL Server, VB, C, C++, HTML Unix Admin Mainframe/RPG, Internet Architecture PPLsoft, PPLTools, SQR, PPLcode, & Oracle</p>
+          <p className='m-0'>Permanent Positions with Diverse Skill Sets:
+
+We have exciting permanent positions available for candidates with strong skills in one or more 
+of the following areas:</p>
+<br />
+          <ul style={{color:'#6D6D6D'}}>
+            <li>Java, WindowNT</li>
+            <li>J2EE, XML, JSP</li>
+            <li>WinRunner, QTP, LoadRunner, Rational</li>
+            <li>Powerbuilder, Informix, Informatica, Sybase, DB2/SQL Server</li>
+            <li>VB, C, C++, HTML</li>
+            <li>Unix Admin, Mainframe/RPG, Internet Architecture</li>
+            <li>PPLsoft, PPLTools, SQR, PPLcode, Oracle</li>
+          </ul>
           <br />
-          <p className='m-0'>Positions are: Software Engs, Programmer /Sys Analysts, QAEngs, Sales Engs, Business Analysts, Lead Analysts,Proj Mgrs/Leaders, Market Research Analysts, Technical Recruiters. F/T positions at our offices & client sites. May be required to travel/relocate to unanticipated client locations across the US for short term or long term projects.</p>
-          <br />
-          <p className='m-0'>Please send Resumes to: Xceltech Inc. 2136 Gallows Rd., Ste F, Dunn Loring, VA 22027.</p>
+          <p className='m-0'>Various Roles Available: We offer a range of positions, including Software Engineers, Programmer/Sys Analysts, 
+QA Engineers, Sales 
+Engineers, Business Analysts, Lead Analysts, Project Managers/Leaders, Market Research 
+Analysts, and Technical Recruiters. These full-time positions are available at both our offices and client 
+sites. You may have the opportunity to travel or relocate to different client locations across the US for 
+short-term or long-term projects.</p>
           <br />
           <span id='flexi'>A Flexible Partnership</span>
-          <p className='m-0 '>At XcelTech, a career starts with a flexible partnership between each employee and the company. We provide opportunity, assistance and direction a€“ and you select the path that best fits your career goals. Our consultants and employees grow at their own pace, freed from bureaucracy of larger, more restrictive firms. We believe that good employees are well rounded and we empower them to develop a career that includes variety as well as the chance to emphasize specific talents and interests. We also provide the framework for success. We encourage and sponsor training, provide mentoring and conduct performance reviews. Working here means you have access to people and resources that help to make career decisions easier - based on the real-life experience of someone who's likely already been there.</p>
+          <p className='m-0 '>We believe in a flexible partnership between each employee and the company. Your career growth is 
+essential to us, and we provide the support and direction you need to achieve your goals. Enjoy the freedom to develop 
+your career at your own pace, without the bureaucracy of larger firms. We value well-rounded 
+employees and empower you to embrace diverse experiences and focus on specific talents and interests.
+With mentoring, training, and performance reviews, we offer the framework for your success.</p>
           <br />
-          <span id='benefit'>Benefits</span>
-          <p>Providing quality benefits are something we believe helps employees worry less about the details and focus on career advancement. As such, we offer a competitive compensation program including performance related bonuses and locally competitive benefits.</p>
-          <p>A careful skills and experience review is conducted prior to an engagement to ensure a consultant will be productive as soon as they join the project. Only consultants who surpass these standards are engaged at XCELTECH client sites.</p>
-          <span >XCELTECH believes in Equal Opportunity Employment.</span>
+          <span id='benefit'>Quality Benefits and Compensation:</span>
+          <p>We care about your well-being and offer a competitive compensation program, including performance-related 
+          bonuses and locally competitive benefits. Before engagement, we conduct a careful skills and experience review to ensure 
+          you can make an immediate impact on the project. Only consultants who exceed our standards are engaged at EasyWay 
+          Automation client sites.</p>
+          <span id='benefit'>Equal Opportunity Employment:</span>
+          <p>EasyWay Automation believes in Equal Opportunity Employment, and we welcome diverse 
+individuals to join 
+our team.</p>
+          <span >Ready to Take the Next Step?</span>
+          <p>If you're ready for an exciting and fulfilling career in the IT consulting industry, submit your resume 
+to us at:
+		EasyWay Automation
+		1111 Gallows Rd., Ste F
+		Dunn Loring, VA 111111
+
+		Join EasyWay Automation. and embark on a journey of growth, innovation, and empowerment. Your future 
+awaits!</p>
           </div>
           <div className="career-left ms-3">
             <div className=" ms-0 mb-5 pb-5">

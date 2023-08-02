@@ -23,29 +23,41 @@ const Employees = () => {
         </ul>
       </div>
       <div className="employee-box">
-        <div className="employee-heading">
+        <div className="employee-heading mb-2">
           For Employees
         </div>
         <div className="two-side-box d-flex flex-column flex-sm-column flex-lg-row align-items-center justify-content-center">
           <div className="employee-right">
+            <span className='fw-bold '>Empowering Your Career:</span>
             <p className='m-0'>
-            Xceltech's career option removes barriers and gives you the platform to break into an industry that has seen unmatched growth in the last decade. Or maybe there's a specific company you've had your eye on. Let us propel your name to the top of the hiring list. Advance your career with on-the-job experience and additional skills training and certifications. You can do it all with Xceltech.
+            At EasyWayAutomation, our employees are the heart of our success. We provide diverse career options, 
+breaking barriers to help you thrive in an industry with unmatched growth. Propel your name to the top with our 
+support, advancing your career through on-the-job experience, skills training, and certifications. Whether you 
+aim for specific companies or explore various opportunities, we are here to guide you every step of the way.
             <br />
             <br />
-            Our specialized recruiters match your skills and career goals to consulting opportunities that you'll find satisfying and rewarding. We leverage extensive client connections to get your foot in the door at Fortune 500 Companies. Once on assignment, we will continue to support you while you get first-hand knowledge about working there.
+            <span className='fw-bold'>Matching Your Ambitions:</span> <br />
+            Our specialized recruiters diligently match your unique skills and career goals to rewarding consulting 
+opportunities. We leverage our extensive client connections, opening doors at Fortune 100 Companies, and supporting you 
+throughout your assignments. Your potential is more than a resume or job title; we take the time to understand your 
+talents, experiences, and interests, connecting you to the right contract positions for accelerated professional success.
             <br />
-            <br />
-            At Xceltech, we know that your potential can’t be captured in a resume, job title or job description. With an understanding of your unique talents, experience and interests, we connect you to the right contract to positions to accelerate your professional success.
+            
             </p>
             <br />
-            <p className='m-0'>With Xceltech, you can:</p>
+            <p className='m-0'>Endless Growth Possibilities:</p>
             <p>
-            • Feel confident you have the backing of a well-established IT Firm
+            • Feel confident with the backing of a well-established IT firm.
             <br />
-            • Improve your skills with our free skills enhancement training programs
+            • We offer stability and growth opportunities.
             <br />
-            • Utilize our contacts to penetrate Fortune Companies and Industry Leaders
+            • complemented by free skills enhancement training programs to keep you ahead in your field.
+            <br />
+            • With our vast network of contacts among Fortune Companies and Industry Leaders, exciting career 
+prospects are within reach.
             </p>
+            <p>Join us on a journey of continuous growth, learning, and success in the dynamic world of IT—your career 
+aspirations are our priority, and we're here to support you every step of the way.</p>
 
             <p>
               <span>REFERRAL POLICY:</span>

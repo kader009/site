@@ -26,7 +26,7 @@ const Navbars = () => {
         <Navbar.Brand 
         className='ms-5'>
           <Link to='/'>
-          <img src='/logo.png' className='img-fluid w-75'/>
+          <img src='/logo.png' style={{width:'3rem'}}/>
           </Link>
         </Navbar.Brand>
         <Navbar.Toggle className='bg-light' aria-controls="basic-navbar-nav" />
@@ -34,7 +34,7 @@ const Navbars = () => {
           <Nav className="me-auto ms-5 ">
             <Link className='text-decoration-none ms-3 text-light' to="/" style={{fontFamily:'Roboto, sans-serif'}}>Home</Link>
             <Link className='text-decoration-none ms-3 text-light' to="/corporate" style={{fontFamily:'Roboto, sans-serif'}}>Corporate Culture</Link>
-            <Link className='text-decoration-none ms-3 text-light' to="/vision" style={{fontFamily:'Roboto, sans-serif'}}>Vision</Link>
+            <Link className='text-decoration-none ms-3 text-light' to="/vision" style={{fontFamily:'Roboto, sans-serif'}}>Vision & Mission</Link>
             <Link className='text-decoration-none ms-3 text-light' to="/specialties" style={{fontFamily:'Roboto, sans-serif'}}>Specialties</Link>
             <Link className='text-decoration-none ms-3 text-light' to="/employee" style={{fontFamily:'Roboto, sans-serif'}}>For Employess</Link>
             <Link className='text-decoration-none ms-3 text-light' to="/career" style={{fontFamily:'Roboto, sans-serif'}}>Career</Link>
