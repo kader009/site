@@ -2,7 +2,7 @@ import React from 'react'
 import './../../App'
 import { Link, animateScroll as scroll } from "react-scroll";
 import {  useLocation } from 'react-router-dom';
-import { Container, Row, Col } from 'react-bootstrap'
+
 
 
 
@@ -25,7 +25,7 @@ const Enterprise = () => {
             <img src='/breadcrum.png' alt="" />
             
           </li>
-        <img src="/line.png" alt="line" className='d-sm-none d-lg-block d-md-block mt-2'/>
+        <img src="/line.png" alt="line" className='d-sm-none d-lg-block d-md-block mt-2 d-none'/>
         </ul>
       </div>
       <div className="enterprise-box">

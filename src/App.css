@@ -554,6 +554,18 @@
   color: #6d6d6d;
   text-transform: uppercase;
 }
+.performance-box{
+  width: 1200px;
+  padding: 0 0 22px 0;
+  margin-left: 19rem;
+}
+.performance-heading{
+  font-family: Calibri;
+  font-size: 29px;
+  font-weight: bold;
+  color: #6d6d6d;
+  text-transform: uppercase;
+}
 .erp-text{
   font-family: Calibri;
   font-size: 16px;
@@ -562,6 +574,21 @@
   line-height: 20px;
 }
 .erp-text h4{
+  font-family: Calibri;
+  font-size: 16px;
+  font-weight: bold;
+  color: #6D6D6D;
+  line-height: 20px;
+  margin: 0 0 10px 0;
+}
+.epm-text{
+  font-family: Calibri;
+  font-size: 16px;
+  font-weight: normal;
+  color: #6D6D6D;
+  line-height: 20px;
+}
+.epm-text h4{
   font-family: Calibri;
   font-size: 16px;
   font-weight: bold;
@@ -711,6 +738,13 @@ table, tr, td {
 /* responsive */
 
 @media only screen and (max-width: 576px) {
+  html{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
   .white-txt {
     margin-left: 3rem !important;
     margin-top: 2rem;
@@ -802,6 +836,13 @@ table, tr, td {
     margin-left: 5rem;
   }
   .enterprise-heading{
+    font-size: 20px;
+  }
+  .performance-box{
+    width: 400px;
+    margin-left: 5rem;
+  }
+  .performance-heading{
     font-size: 20px;
   }
   .assurance-box{
@@ -896,15 +937,32 @@ table, tr, td {
 
 
 @media screen and (max-width: 575px) and (min-width: 402px) {
-  .corporate-box{
-    width: 390px;
+  html{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
   }
+  .white-txt{
+    margin-left: 12px !important;
+  }
+  .corporate-box{
+    width: 370px;
+  }
+  .corporate-para {
+    margin-left: 3rem;
+}
+.corporate-bullet {
+  margin-left: 2rem;
+}
   .corporate-heading{
-    font-size: 17px;
+    font-size: 16px;
+    margin-left: 49px;
   }
   .culture-box{
     width: 321px;
-    margin-left: 3rem;
+    margin-left: 2rem;
   }
   .culture-heading{
     margin-left: 3rem;
@@ -928,7 +986,7 @@ table, tr, td {
     font-size: 17px;
   }
   .employee-left{
-    margin-right: 10rem;
+    margin-right: 5rem;
   }
   .career-content-box{
     width: 322px;
@@ -937,9 +995,12 @@ table, tr, td {
   .career-heading{
     font-size: 17px;
   }
+  .career-content .side-box{
+    margin-right: 1rem;
+  }
   .contact-box{
     width: 354px;
-    margin-left: 3rem;
+    margin-left: 2rem;
   }
   .contact-heading h1{
     font-size: 17px;
@@ -975,6 +1036,81 @@ table, tr, td {
   .form ul li textarea {
     width: 200px;
   }
+  .site-box{
+    width: 353px;
+    margin-left: 3rem;
+  }
+  .site-heading{
+    font-size: 16px;
+  }
+  .enterprise-box {
+  width: 370px;
+  margin-left: 1rem;
+}
+.enterprise-heading{
+  font-size: 16px;
+}
+.performance-box{
+  width: 370px;
+  margin-left: 18px;
+}
+.performance-heading{
+  font-size: 16px;
+}
+.white-txt{
+  margin-left: -16px !important;
+}
+.assurance-box{
+  width: 370px;
+  margin-left: 1rem;
+}
+.assurance-heading{
+  font-size: 16px;
+}
+.testing-box{
+  width: 385px;
+  margin-left: 14px;
+}
+.testing-heading{
+  font-size: 16px;
+}
+.solution-box{
+  width: 385px;
+  margin-left: 1rem;
+}
+.solution-heading{
+  font-size: 16px;
+}
+.manage-box{
+  width: 385px;
+  margin-left: 14px;
+}
+.manage-heading{
+  font-size: 16px;
+}
+.automation-box{
+  width: 385px;
+  margin-left: 14px;
+}
+.automation-heading{
+  font-size: 16px;
+}
+.speacial-box{
+  width: 382px;
+  margin-left: 7px;
+}
+.speacial-heading{
+  font-size: 16px;
+}
+.footer{
+  display: flex;
+  flex-direction: column;
+}
+.high{
+  width: 130%;
+  margin-right: 10rem;
+  height: 4rem;
+}
 
 }
 

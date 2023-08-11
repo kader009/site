@@ -1,7 +1,6 @@
 import React from 'react'
 import { useLocation } from 'react-router-dom';
 import { Link, animateScroll as scroll } from "react-scroll";
-// import { Link } from 'react-router-dom';
 
 const Performence = () => {
   const location = useLocation();
@@ -20,21 +19,21 @@ const Performence = () => {
             <img src='/breadcrum.png' alt="" />
             
           </li>
-        <img src="/line.png" alt="line" className='d-sm-none d-lg-block d-md-block mt-2'/>
+        <img src="/line.png" alt="line" className='d-sm-none d-lg-block d-md-block mt-2 d-none'/>
         </ul>
       </div>
-      <div className="enterprise-box">
-        <div className="enterprise-heading">
+      <div className="performance-box">
+        <div className="performance-heading">
         EPM (Enterprise Performance Management)
         </div>
-        <div className="erp-inner">
+        <div className="epm-inner">
           <ul>
             <li><Link className='text-secondary' to="what" >What is EPM?</Link></li>
             <li><Link className='text-secondary' to="major" smooth={true} duration={300}>What is EPM Architecture?</Link></li>
             <li><Link className='text-secondary' to="xcel" smooth={true} duration={500}>Why Xceltech for EPM?</Link></li>
           </ul>
         </div>
-        <div className="erp-text">
+        <div className="epm-text">
           <h4 id="what">What is EPM?</h4>
           Enterprise Performance Management (EPM) applications are a group of business intelligence tools designed to help
           <br />
@@ -42,7 +41,7 @@ const Performence = () => {
         </div>
           <br />
         
-        <div className="erp-text">
+        <div className="epm-text">
           <h4 id='major'>What is EPM Architecture?</h4>
 
           <p>PeopleSoft's EPM 8.3 is the first application to provide complete scope of business analytical functionality. EPM 8.3 is web
@@ -62,9 +61,9 @@ const Performence = () => {
           Liability Management and Funds Transfer Pricing.</p>
         </div>
         <div className="erp-sys-img ms-5 mt-2 mb-4">
-          <img src="/epm1.jpg" alt="" />
+          <img src="/epm1.jpg" alt="" className='img-fluid'/>
         </div>
-        <div className="erp-text">
+        <div className="epm-text">
           <h4 id="xcel">Why Xceltech for EPM?</h4>
           XcelTech helps its clients by providing quality PeopleSoft EPM solution. We at XcelTech target at the right EPM resources for
           <br />

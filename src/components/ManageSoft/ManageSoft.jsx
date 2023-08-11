@@ -18,7 +18,7 @@ const ManageSoft = () => {
             <img src='/breadcrum.png' alt="" />
             
           </li>
-        <img src="/line.png" alt="line" className='d-sm-none d-lg-block d-md-block mt-2'/>
+        <img src="/line.png" alt="line" className='d-sm-none d-none d-lg-block d-md-block mt-2'/>
         </ul>
       </div>
       <div className="manage-box">

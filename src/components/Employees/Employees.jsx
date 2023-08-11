@@ -77,7 +77,7 @@ aspirations are our priority, and we're here to support you every step of the wa
                 </div>
               </div>
           </div>
-          <div className="employee-left ms-5 pe-2">
+          <div className="employee-left ms-5 pe-2 ">
             <div className="left-heading text-center">
             Download Forms
             </div>

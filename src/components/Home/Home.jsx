@@ -3,7 +3,7 @@ import '../../App'
 
 const Home = () => {
   return (
-    <div>
+    <div> 
       
       <div className="white-txt ">
         <ul style={{ listStyleType: 'none' }}>
@@ -11,7 +11,7 @@ const Home = () => {
             <a href="" className='select me-2 '>Home</a>
             <img src='/breadcrum.png' alt="" />
           </li>
-        <img src="/line.png" alt="line" style={{width:'700px'}} className='d-sm-none d-md-none d-xs-none d-none d-lg-block d-md-block mt-2 '/>
+        <img src="/line.png" alt="line" style={{width:'700px'}} className='d-sm-none  d-md-none  d-none d-lg-block d-md-block mt-2 '/>
         </ul>
       </div>
       <div className="corporate-box">
