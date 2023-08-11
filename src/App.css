@@ -1111,6 +1111,17 @@ table, tr, td {
   margin-right: 10rem;
   height: 4rem;
 }
+.currentOpen-box{
+  width: 385px;
+  margin-left: 1rem;
+}
+.current-heading{
+  font-size: 16px;
+}
+.currentOpen-tab-bottom table{
+  width: 95%;
+}
+
 
 }
 

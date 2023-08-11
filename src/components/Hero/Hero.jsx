@@ -13,7 +13,6 @@ const Hero = () => {
           <h2>for smarter business outcomes </h2>
           <br />
           <h2>No matter what.</h2>
-          {/* <br /> */}
           
         </div>
       </div>
