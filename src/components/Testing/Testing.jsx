@@ -36,7 +36,7 @@ const Testing = () => {
       different browsers, and continue to consistently and accurately function as the application and technology evolves.
       <br />
       <br />
-      Xceltech's World Wide Web testing experts bring discipline, experience, and expert knowledge of top industry tools to design,
+      Easy Way Automation World Wide Web testing experts bring discipline, experience, and expert knowledge of top industry tools to design,
       <br />
       automate, and execute test cases that validate a web application's functionality on an ongoing basis.
       </div>

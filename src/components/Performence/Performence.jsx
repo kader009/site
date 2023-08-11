@@ -30,7 +30,7 @@ const Performence = () => {
           <ul>
             <li><Link className='text-secondary' to="what" >What is EPM?</Link></li>
             <li><Link className='text-secondary' to="major" smooth={true} duration={300}>What is EPM Architecture?</Link></li>
-            <li><Link className='text-secondary' to="xcel" smooth={true} duration={500}>Why Xceltech for EPM?</Link></li>
+            <li><Link className='text-secondary' to="xcel" smooth={true} duration={500}>Why Easy Way Automation for EPM?</Link></li>
           </ul>
         </div>
         <div className="epm-text">
@@ -64,17 +64,17 @@ const Performence = () => {
           <img src="/epm1.jpg" alt="" className='img-fluid'/>
         </div>
         <div className="epm-text">
-          <h4 id="xcel">Why Xceltech for EPM?</h4>
-          XcelTech helps its clients by providing quality PeopleSoft EPM solution. We at XcelTech target at the right EPM resources for
+          <h4 id="xcel">Why Easy Way Automation for EPM?</h4>
+          Easy Way Automation helps its clients by providing quality PeopleSoft EPM solution. We at Easy Way Automation target at the right EPM resources for
           <br />
           our clients needs as part of its commitment to helping clients build performance centric organizations; utilizing information
           <br />
           from extended enterprise applications, third party tools and legacy systems.
           <br />
           <br />
-          For more information on how XcelTech can help your organization with EPM of any of our other PeopleSoft services please
+          For more information on how Easy Way Automation can help your organization with EPM of any of our other PeopleSoft services please
           <br />
-          e-mail info@xceltech.com or visit our Contact US page.
+          e-mail info@easywayautomation.com or visit our Contact US page.
         </div>
       </div>
     </div>

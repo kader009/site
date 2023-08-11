@@ -36,7 +36,7 @@ const Enterprise = () => {
           <ul>
             <li><Link className='text-secondary' to="what" >What is ERP?</Link></li>
             <li><Link className='text-secondary' to="major" smooth={true} duration={300}>5 major ERP benefits</Link></li>
-            <li><Link className='text-secondary' to="xcel" smooth={true} duration={500}>XcelTech as your ERP partner</Link></li>
+            <li><Link className='text-secondary' to="xcel" smooth={true} duration={500}>EasyWayAutomation as your ERP partner</Link></li>
           </ul>
         </div>
         <div className="erp-text">
@@ -71,19 +71,19 @@ const Enterprise = () => {
           <img src="/erp-system.jpg" alt="" />
         </div>
         <div className="erp-text">
-          <h4 id="xcel">Why consider XcelTech as your ERP partner?</h4>
-          At XcelTech we have understood niche of our clients and partners and have thus concentrated on upbringing of our self in
+          <h4 id="xcel">Why consider Easy Way Automation as your ERP partner?</h4>
+          At Easy Way Automation we have understood niche of our clients and partners and have thus concentrated on upbringing of our self in
           <br />
           specific ERP segments and modules. Our Clients have benefited by our skilled resources concentrating on Peoplesoft HRMS
           <br />
-          & Financial Packages. In-depth functional and technical knowledge and experience of XcelTech has helped our clients and
+          & Financial Packages. In-depth functional and technical knowledge and experience of Easy Way Automation has helped our clients and
           <br />
           partners to implement ERP packages right form scratch to empower themselves in today's competitive Internet world.
           <br />
           <br />
-          For more information on how XcelTech can help your organization with EPM of any of our other PeopleSoft services please
+          For more information on how Easy Way Automation can help your organization with EPM of any of our other PeopleSoft services please
           <br />
-          e-mail info@xceltech.com or visit our Contact US page.
+          e-mail info@easywayautomation.com or visit our Contact US page.
         </div>
       </div>
       

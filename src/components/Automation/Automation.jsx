@@ -26,13 +26,13 @@ const Automation = () => {
         TEST AUTOMATION
         </div>
         <div className="automation-text">
-        Xceltech is a leading provider of consulting services related to automated test tools. We have established partnerships with the
+        Easy Way Automation is a leading provider of consulting services related to automated test tools. We have established partnerships with the
         <br />
         leading tools providers for defect tracking, load testing, regression testing, and test management. Whether you need
         <br />
         assistance in selecting and implementing an automated test tool, or have an existing tool inventory that is underutilized,
         <br />
-        Xceltech has the experience to help your organization increase efficiency, productivity and software quality.
+        Easy Way Automation has the experience to help your organization increase efficiency, productivity and software quality.
         <br />
         <br />
         Automation projects can be divided into two phases:

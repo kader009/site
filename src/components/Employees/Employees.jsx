@@ -84,7 +84,7 @@ aspirations are our priority, and we're here to support you every step of the wa
             <div className='line'></div>
             <div className="left-line">
               <ul style={{ listStyleType: 'none' }}>
-                <li>1. Xceltech Monthly TimeSheet:
+                <li>1. Monthly TimeSheet:
                   <br />
                   <a href='/Monthly_Time sheet. XCT.xls' download>Monthly_Time sheet. XCT.xls</a></li>
                   <br />

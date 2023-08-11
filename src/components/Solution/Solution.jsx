@@ -29,7 +29,7 @@ const Solution = () => {
         <div className="solution-text">
         Ecommerce and the use of Web applications across the Internet and within corporation Intranet environments is growing at a
         <br />
-        phenomenal rate. Xceltech's World Wide Web and client/server solution testing experts provide the experience and top
+        phenomenal rate. Easy Way Automation World Wide Web and client/server solution testing experts provide the experience and top
         <br />
         industry test tools to simulate real-life workloads and traffic to determine the scalability and the reliability of Internet and
         <br />

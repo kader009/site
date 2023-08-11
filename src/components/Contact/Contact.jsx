@@ -52,7 +52,7 @@ const Contact = () => {
           <span id='bold'>EMAIL</span>
           <p>For general information, to request information about any of our services, or for comments.
             <br />
-          Please email us at <Link className='text-secondary' to='mailto:info@xceltech.com'>info@xceltech.com</Link> or use our <Link className='text-secondary' to='email-us'>online email form</Link> to submit your request.</p>
+          Please email us at <Link className='text-secondary' to='mailto:info@xceltech.com'>info@easywayautomation.com</Link> or use our <Link className='text-secondary' to='email-us'>online email form</Link> to submit your request.</p>
           <br />
           <span id='bold'>DIRECTIONS
           </span>

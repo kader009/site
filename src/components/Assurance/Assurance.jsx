@@ -26,7 +26,7 @@ const Assurance = () => {
         SQA (Software Quality Assurance)
         </div>
         <div className="assurance-text">
-        XcelTech's team of software and systems testing professionals is your answer to the global testing challenges of an Internet
+        Easy Way Automation team of software and systems testing professionals is your answer to the global testing challenges of an Internet
         <br />
         world.
         <br />
@@ -41,7 +41,7 @@ const Assurance = () => {
         We are the professional testing experts to help meet all your testing needs.
         <br />
         <br />
-        Here are some of the QA Solutions we offer at XcelTech:
+        Here are some of the QA Solutions we offer at Easy Way Automation:
         <br />
         <br />
         <ul>
