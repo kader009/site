@@ -25,7 +25,7 @@ const fullMonth = date.toLocaleString('en-US', options);
           </Nav>
       </div>
       <div className="nav-text pt-2">
-        <p>©  {currentYear} - {fullMonth} - EasyWayAutomation - <Link to='/privacy' className='text-decoration-none text-secondary'>Privacy Policy</Link>  - <Link to='/sitemap' className='text-secondary text-decoration-none'>Site Map</Link> </p>
+        <p>©  {currentYear} - {fullMonth} - EasyWayAutomation - <Link to='/privacy' className='text-decoration-none text-secondary'>Privacy Policy</Link>  - <Link to='/terms' className='text-decoration-none text-secondary'>Terms & Conditions</Link> - <Link to='/sitemap' className='text-secondary text-decoration-none'>Site Map</Link> </p>
       </div>
     </div>
   )

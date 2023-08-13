@@ -19,6 +19,7 @@ import Solution from './components/Solution/Solution'
 import ManageSoft from './components/ManageSoft/ManageSoft'
 import Automation from './components/Automation/Automation'
 import CurrentOpen from './components/CurrentOpen/CurrentOpen'
+import Terms from './components/Terms/Terms'
 
 function App() {
 
@@ -94,6 +95,10 @@ function App() {
         {
           path: '/privacy',
           element: <Privacy/>
+        },
+        {
+          path: '/terms',
+          element: <Terms/>
         },
         {
           path: '/sitemap',

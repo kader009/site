@@ -59,7 +59,6 @@
   font-size: 16px;
   font-weight: normal;
   color: #6d6d6d;
-  /* margin-left: 3rem; */
 }
 .privacy-txt{
   margin-left: 17rem;
@@ -85,6 +84,29 @@
   margin-left: 19rem;
 }
 .privacy-content p{
+  font-family: Calibri;
+  font-size: 16px;
+  font-weight: normal;
+  color: #6D6D6D;
+  line-height: 20px;
+  text-align: justify;
+}
+.terms-heading{
+  font-family: Calibri;
+  font-size: 29px;
+  font-weight: bold;
+  color: #6d6d6d;
+  text-transform: uppercase;
+  margin-left: 19rem;
+}
+.terms-box {
+  width: 1300px;
+  padding: 0 0 22px 0;
+}
+.terms-box .terms-content{
+  margin-left: 19rem;
+}
+.terms-content p{
   font-family: Calibri;
   font-size: 16px;
   font-weight: normal;
@@ -918,12 +940,22 @@ table, tr, td {
   }
   .privacy-heading{
     font-size: 20px;
-    margin-left: 5rem;
+    margin-left: 3rem;
   }
   .privacy-box .privacy-content {
-    margin-left: 5rem;
+    margin-left: 3rem;
   }
   .privacy-box{
+    width: 540px;
+  }
+  .terms-heading{
+    font-size: 20px;
+    margin-left: 3rem;
+  }
+  .terms-box .terms-content {
+    margin-left: 3rem;
+  }
+  .terms-box{
     width: 540px;
   }
   .white-txt{
@@ -945,7 +977,7 @@ table, tr, td {
     overflow-x: hidden;
   }
   .white-txt{
-    margin-left: 12px !important;
+    margin-left: 17px !important;
   }
   .corporate-box{
     width: 370px;
@@ -1058,7 +1090,7 @@ table, tr, td {
   font-size: 16px;
 }
 .white-txt{
-  margin-left: -16px !important;
+  margin-left: 16px !important;
 }
 .assurance-box{
   width: 370px;
@@ -1120,6 +1152,26 @@ table, tr, td {
 }
 .currentOpen-tab-bottom table{
   width: 95%;
+}
+.privacy-box{
+  width: 380px;
+}
+.privacy-box .privacy-content{
+  margin-left: 1rem;
+}
+.privacy-heading{
+  font-size: 16px;
+  margin-left: 1rem;
+}
+.terms-box{
+  width: 380px;
+}
+.terms-box .terms-content{
+  margin-left: 1rem;
+}
+.terms-heading{
+  font-size: 16px;
+  margin-left: 1rem;
 }
 
 
